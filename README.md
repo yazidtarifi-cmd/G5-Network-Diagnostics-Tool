@@ -2,17 +2,16 @@
 
 University of Petra — Course 605346 — Phase 1 — deadline: **21 November 2026**
 
-## Team roles (fill these in before submission)
+## Team roles — Group G5
 
 | Student role | Name | Student ID | File |
 |---|---|---|---|
-| Student 1 — Concurrent Server | [Name] | [ID] | `server.py` |
-| Student 2 — PING reachability | [Name] | [ID] | `ping_client.py` |
-| Student 3 — ECHO latency | [Name] | [ID] | `echo_client.py` |
-| Student 4 — STATS activity | [Name] | [ID] | `stats_client.py` |
+| Student 1 — Concurrent Server | Layan Mohammed rayq Alfaour | 202410484 | `server.py` |
+| Student 2 — PING reachability | yazeed alaa ibraheem mostafa | 202020215 | `ping_client.py` |
+| Student 3 — ECHO latency | Carmel adnan ibrahim ibrahim | 202411556 | `echo_client.py` |
+| Student 4 — STATS activity | Ouhood Khalid Ahmad Makkieh | 201911109 | `stats_client.py` |
 
-GitHub repository link: **[ADD TEAM REPOSITORY URL]**
-
+**GitHub repository link:** https://github.com/yazidtarifi-cmd/G5-Network-Diagnostics-Tool
 ## What does it do?
 
 A multithreaded, command-line diagnostic server serves three different TCP clients. PING checks reachability and handles timeouts/connection errors. ECHO sends several requests with unique identifiers and reports minimum/average/maximum round-trip latency as well as timeouts. STATS retrieves server uptime and a counter of completed requests. The server appends timestamped request outcomes to a thread-safe JSON-lines log (`server_log.jsonl`).
